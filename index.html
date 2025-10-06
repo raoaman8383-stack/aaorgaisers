@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>A & A Organisers — Event Management | aandaorganisers.in</title>
+  <meta name="description" content="A & A Organisers — Professional event management in Kurukshetra, Haryana. Weddings, corporate events, birthdays & more." />
+  <meta name="author" content="A & A Organisers" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎉</text></svg>">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <h1>A &amp; A Organisers</h1>
+        <p class="tag">Turning moments into memories</p>
+      </div>
+      <nav class="nav">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Professional Event Management in Kurukshetra, Haryana</h2>
+      <p>Weddings • Corporate • Birthdays • Theme Parties</p>
+      <a class="btn" href="#contact">Book a Free Consultation</a>
+    </div>
+  </section>
+
+  <main>
+    <section id="services" class="container services">
+      <h3>Our Services</h3>
+      <div class="cards">
+        <div class="card"><h4>Weddings</h4><p>Complete wedding planning — themes, décor, catering & coordination.</p></div>
+        <div class="card"><h4>Corporate Events</h4><p>Conferences, launches, team events & brand activations.</p></div>
+        <div class="card"><h4>Parties & Celebrations</h4><p>Birthdays, anniversaries, cultural & private functions.</p></div>
+        <div class="card"><h4>Logistics & Management</h4><p>Vendor, stage & AV setup, guest management & security.</p></div>
+      </div>
+    </section>
+
+    <section id="about" class="container about">
+      <h3>About Us</h3>
+      <p>A &amp; A Organisers is a professional event management company based in Kurukshetra, Haryana. We plan, design, and manage all types of events with creativity and precision.</p>
+      <ul>
+        <li>Experienced team of organisers</li>
+        <li>Trusted vendors network</li>
+        <li>Creative themes & décor</li>
+        <li>Transparent pricing</li>
+      </ul>
+    </section>
+
+    <section id="gallery" class="container gallery">
+      <h3>Gallery</h3>
+      <div class="grid">
+        <div class="photo">Photo 1</div>
+        <div class="photo">Photo 2</div>
+        <div class="photo">Photo 3</div>
+        <div class="photo">Photo 4</div>
+      </div>
+      <p class="muted">Replace these placeholders with your real event photos.</p>
+    </section>
+
+    <section id="contact" class="container contact">
+      <h3>Contact Us</h3>
+      <div class="contact-grid">
+        <div>
+          <p><strong>Phone:</strong> +91-9350476884</p>
+          <p><strong>Email:</strong> aaorganisers@gmail.com</p>
+          <p><strong>Address:</strong> Kurukshetra, Haryana, India</p>
+        </div>
+
+        <form action="https://formspree.io/f/mexample" method="POST" class="contact-form">
+          <label>Name<input type="text" name="name" required></label>
+          <label>Email<input type="email" name="email" required></label>
+          <label>Message<textarea name="message" rows="5" required></textarea></label>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> A &amp; A Organisers. All rights reserved.</p>
+      <p class="muted">Made with ♥ in Kurukshetra • <a href="#contact">Contact Us</a></p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
